@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - Projeto Tech Store com Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <!-- Header -->
+    <div class="container-fluid text-center py-5 bg-dark text-light">
+        <h1 class="display-4">🖌️ Pencil Store</h1>
+
+        <p class="lead">
+            Projeto utilizando todos os containers do Bootstrap
+        </p>
+    </div>
+    <!-- Fim Header -->
+
+    <!-- Quem Somos -->
+     <div class="container bg-light rounded-4 shadow-4 shadow-lg p-4 mb-5 mt-5">
+        <h3 class="text-primary">Quem Somos</h3>
+
+        <p>Somos uma loja especializada em arte, acessórios e tecnologia</p>
+
+        <div class="container bg-primary-subtle border border-primary border-2 rounded-3 p-4 mb-5">
+            Este conteúdo está dentro de um <strong>.container</strong>
+        </div>
+     </div>
+     <!-- Fim Quem Somos -->
+
+     <!-- Produtos em Destaque -->
+     <div class="container-sm bg-success-subtle border-5 rounded-4 p-4 mb-5">
+        <h2 class="text-success text-center mb-4">Produtos em Destaque</h2>
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-150">
+                    <div class="card-body">
+
+                        <img src="https://images4.kabum.com.br/produtos/fotos/626854/mesa-digitalizadora-huion-kamvas-3-geracao-13-tela-full-hd-16384-niveis-de-pressao-preto-gs1333-k_1779999591_gg.jpg" alt="teste" style="width: 55%; height: 60%;"  class="align-middle">
+
+                        <h5 class="card-title">
+                            Mesa Digitalizadora Huion Kamvas 3ª Geração 13
+                        </h5>
+                        
+                        <p class="card-text">
+                            Descubra a Kamvas 13 (Gen 3), sua parceira ideal para criações digitais. 
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 mb-2">
+                        <button class="btn btn-success">
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM CARD 1 -->
+
+
+            <!-- CARD 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-150">
+                    <div class="card-body">
+
+                        <img src="https://images5.kabum.com.br/produtos/fotos/499125/teclas-rapidas-xencelabs-pen-display-24-com-caneta-rgb-lph2412u-a_1714670254_gg.jpg" alt="teste" style="width: 55%; height: 60%;"  class="align-middle">
+
+                        <h5 class="card-title">
+                            Mesa Digitalizadora Com Tela Xencelabs
+                        </h5>
+                        
+                        <p class="card-text">
+                            A Mesa Digitalizadora Xencelabs 24" é uma tela de desenho digital de grande tamanho para profissionais criativos. 
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 mb-2">
+                        <button class="btn btn-success">
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM CARD 2 -->
+
+            <!-- CARD 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-150">
+                    <div class="card-body">
+
+                        <img src="https://images1.kabum.com.br/produtos/fotos/sync_mirakl/173541/xlarge/Mesa-Digitalizadora-One-By-Wacom-Ctl472-Pequena-Pen-Lp-190k-Preto-E-Vermelho_1779721722.jpg" alt="teste" style="width: 55%; height: 60%;"  class="align-middle">
+
+                        <h5 class="card-title">
+                            Mesa Digitalizadora One By Wacom
+                        </h5>
+                        
+                        <p class="card-text">
+                            Você e seu computador em harmonia criativa. Esboce, desenhe e edite fotografias com uma experiência de caneta simplesmente ótima.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-white border-0 mb-2">
+                        <button class="btn btn-success">
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM CARD 3 -->
+        </div>
+    </div>
+    <!-- Fim Produtos em Destaque -->
+
+
+      <!-- Tabela -->
+    <div class="container-sm p-4 rounded-4 shadow-lg" style="background-color: #FFF8D6; font-family: sans-serif; ">
+    <h2 class="mb-3" style="color: #F3C63F; font-weight: 500;">Tabela de Produtos</h2>
+    <table class="table table-striped align-middle mb-0 bg-white">
+        <!-- Cabeçalho-->
+        <thead class="table-dark">
+        <tr>
+            <th scope="col" class="border-0 ps-3">Produto</th>
+            <th scope="col" class="border-0">Preço</th>
+            <th scope="col" class="border-0 pe-3">Estoque</th>
+        </tr>
+        </thead>
+        <!--tabela -->
+        <tbody>
+        <tr>
+            <td class="ps-3 text-secondary">Câmera</td>
+            <td class="text-secondary">R$ 812,00</td>
+            <td class="pe-3 text-secondary">15</td>
+        </tr>
+        <tr>
+            <td class="ps-3 text-secondary">Mesa Digitalizadora</td>
+            <td class="text-secondary">R$ 1.200,00</td>
+            <td class="pe-3 text-secondary">20</td>
+        </tr>
+        <tr>
+            <td class="ps-3 text-secondary">Impressora</td>
+            <td class="text-secondary">R$ 2.000,00</td>
+            <td class="pe-3 text-secondary">68</td>
+        </tr>
+        </tbody>
+    </table>
+    
+    </div>
+     <!-- Fim Tabela -->
+
+
+
+
+    <!-- Nossos Serviços -->
+    <div class="container-lg bg-info-subtle rounded-4 p-4 mb-5 mt-5">
+        <h3 class="text-info mb-4">Nossos Serviços</h3>
+        <div class="row mx-auto p-2">
+            <button class="col-10 col-md-4 col-lg-4 bg-info-subtle border border-info border-1 rounded-3 p-3 m-3" style="width: 270px">📝 Venda de Materiais</button>
+            <button class="col-10 col-md-4 col-lg-4 bg-info-subtle border border-info border-1 rounded-3 p-3 m-3" style="width: 270px">🔧 Assistência Técnica</button>
+            <button class="col-10 col-md-4 col-lg-4 bg-info-subtle border border-info border-1 rounded-3 p-3 m-3" style="width: 270px">📦 Entrega</button>
+            <button class="col-10 col-md-4 col-lg-4 bg-info-subtle border border-info border-1 rounded-3 p-3 m-3" style="width: 270px">📚 Cursos</button>
+          
+        </div>
+     </div>
+     <!-- Fim Nossos Serviços -->
+
+
+     <!-- Fale Conosco -->
+     <div class="container-xl bg-secondary-subtle rounded-4 p-5 mb-5 mt-5">
+        <h3 class="text-secondary">Fale Conosco</h3>
+        <div>
+            <p>Nome:</p>
+            <div class=" bg-light border-2 rounded-3 p-3 mb-3">
+        </div>
+        <div>
+            <p>Email:</p>
+            <div class=" bg-light border-2 rounded-3 p-3 mb-3">
+        </div>
+        <div>
+            <p>Mensagem:</p>
+            <div class=" bg-light border-2 rounded-3 p-5 mb-3">
+        </div>
+        <button class="btn btn-secondary">
+            Enviar
+        </button>
+        </div>
+     </div>
+     <!-- Fim Fale Conosco -->
+     </div>
+     </div>
+
+
+
+
+
+
+
+    <!-- Rodapé -->
+    <footer class="container-xxl bg-dark -4 p-4 rounded-top-4">
+        <h3 class="text-light">Pencil Store</h3>
+
+        <p class="text-light">Projeto desenvolvido utilizando o Bootstrap 5.</p>
+
+        <div class="container bg-light-subtle border border-light border-2 rounded-3 p-4 mb-5">
+            Este rodapé utiliza <strong>.container-xxl</strong> ideal para telas muito grandes.
+        </div>
+    </footer>
+    <!-- Fim Rodapé -->
+</body>
+</html>

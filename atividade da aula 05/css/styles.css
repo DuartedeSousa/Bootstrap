@@ -1,6 +1,25 @@
 .Iline{
-    padding: 25px;
+    padding: 40px;
     margin: 8px;
+}
+
+.IIline {
+    padding: 20px;
+    margin: 8px;
+}
+
+.IIIline {
+    padding-top: 20px;
+    margin: 8px;
+}
+
+.IVline {
+    padding: 20px;
+    margin: 8px;
+}
+
+.container{
+    margin-bottom: 8px;
 }
 
 .tag{
